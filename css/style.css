@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+body{
+	background:#eee;
+	font-family:Open Sans;
+	overflow:hidden;
+	margin:0;
+}
+h1{
+	font-weight:normal;
+	font-size:72px;
+	text-align:center;
+	margin-bottom:10px;
+}
+p{
+	font-size:16px;
+	text-align:center;	
+}
+.share{
+	display:block;
+	margin:auto;
+}
+#conteiner div{
+	position:absolute;
+	top:60%;
+	left:-620px;
+	margin-top:-74px;
+	float:left;
+	width:600px;
+	background:#000;
+	color:#fff;
+	font-size:62px;
+	text-align:center;
+	box-shadow:0 0 20px #000;
+	-webkit-transition: all .9s;
+	-moz-transition: all .9s;
+	-ms-transition: all .9s;
+	-o-transition: all .9s;
+	transition: all .9s;
+}
+#conteiner div.defaultShow{
+	left:-138px;
+	opacity:1;
+}
+
+/* -------------------------
+--------- EFEITOS ----------
+--------------------------*/
+#conteiner div.hide2{
+	-webkit-transform-origin: 0%;
+	-moz-transform-origin: 0%;
+	-ms-transform-origin: 0%;
+	-o-transform-origin: 0%;
+	transform-origin: 0%;
+	-webkit-transform: perspective(1200px) rotateY(80deg);
+	-moz-transform: perspective(1200px) rotateY(80deg);
+	-ms-transform: perspective(1200px) rotateY(80deg);
+	-o-transform: perspective(1200px) rotateY(80deg);
+	transform: perspective(1200px) rotateY(80deg);
+}
+#conteiner div.hide3{
+	opacity:0;
+	-webkit-transform: scale(.5);
+	-moz-transform: scale(.5);
+	-ms-transform: scale(.5);
+	-o-transform: scale(.5);
+	transform: scale(.5);
+}
+#conteiner div.hide4{
+	opacity:0;
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+}
+#conteiner div.hide5{
+	-webkit-transform-origin: 0%;
+	-moz-transform-origin: 0%;
+	-ms-transform-origin: 0%;
+	-o-transform-origin: 0%;
+	transform-origin: 0%;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+#conteiner div.hide6{
+	top:-84px;
+}
+#conteiner div.hide7{
+	top:120%;
+}
+#conteiner div.hide8{
+	left:100%;
+}
+#conteiner div.hide9{
+	-webkit-transform-origin: 0%;
+	-moz-transform-origin: 0%;
+	-ms-transform-origin: 0%;
+	-o-transform-origin: 0%;
+	transform-origin: 0%;
+	-webkit-transform: perspective(1200px) rotateY(-90deg);
+	-moz-transform: perspective(1200px) rotateY(-90deg);
+	-ms-transform: perspective(1200px) rotateY(-90deg);
+	-o-transform: perspective(1200px) rotateY(-90deg);
+	transform: perspective(1200px) rotateY(-90deg);
+}
