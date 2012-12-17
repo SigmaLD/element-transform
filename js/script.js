@@ -1,17 +1,17 @@
 ﻿/**
- * Element Transform 0.1
+ * Element Transform 0.2
  * http://www.sigmald.com
  * @author: Luiz Felipe / Danilo Teixeira
  * best view in Google Chrome
  */
 
-!function(){
+function elementTransform(target){
 	
-	var itens = document.getElementById("conteiner").children,
+	var itens = document.getElementById(target).children,
 			elements = itens.length,
 			toggle,
 			direction,
-			styles = ["hide2","hide3","hide4","hide5","hide6","hide7","hide8","hide9"],
+			styles = ["rotateToTop","rotateToBack","rotateToFront","scaleToBack","scaleToFront","moveToTop","moveToBottom","moveToRight"],
 			styleTarget = window.location.search.substr(1) || "", // Escolha um dos styles acima ou deixe uma string vazia para o modo aleatório
 			list = [],
 			enable = true,
@@ -106,4 +106,4 @@
 	}
 
 	document.addEventListener("keyup",init,false);
-}();
+};

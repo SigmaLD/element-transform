@@ -38,6 +38,7 @@ p{
 	-o-transition: all .9s;
 	transition: all .9s;
 }
+
 #conteiner div.defaultShow{
 	left:-138px;
 	opacity:1;
@@ -46,35 +47,7 @@ p{
 /* -------------------------
 --------- EFEITOS ----------
 --------------------------*/
-#conteiner div.hide2{
-	-webkit-transform-origin: 0%;
-	-moz-transform-origin: 0%;
-	-ms-transform-origin: 0%;
-	-o-transform-origin: 0%;
-	transform-origin: 0%;
-	-webkit-transform: perspective(1200px) rotateY(80deg);
-	-moz-transform: perspective(1200px) rotateY(80deg);
-	-ms-transform: perspective(1200px) rotateY(80deg);
-	-o-transform: perspective(1200px) rotateY(80deg);
-	transform: perspective(1200px) rotateY(80deg);
-}
-#conteiner div.hide3{
-	opacity:0;
-	-webkit-transform: scale(.5);
-	-moz-transform: scale(.5);
-	-ms-transform: scale(.5);
-	-o-transform: scale(.5);
-	transform: scale(.5);
-}
-#conteiner div.hide4{
-	opacity:0;
-	-webkit-transform: scale(1.5);
-	-moz-transform: scale(1.5);
-	-ms-transform: scale(1.5);
-	-o-transform: scale(1.5);
-	transform: scale(1.5);
-}
-#conteiner div.hide5{
+#conteiner div.rotateToTop{
 	-webkit-transform-origin: 0%;
 	-moz-transform-origin: 0%;
 	-ms-transform-origin: 0%;
@@ -86,16 +59,19 @@ p{
 	-o-transform: rotate(-90deg);
 	transform: rotate(-90deg);
 }
-#conteiner div.hide6{
-	top:-84px;
+#conteiner div.rotateToBack{
+	-webkit-transform-origin: 0%;
+	-moz-transform-origin: 0%;
+	-ms-transform-origin: 0%;
+	-o-transform-origin: 0%;
+	transform-origin: 0%;
+	-webkit-transform: perspective(1200px) rotateY(80deg);
+	-moz-transform: perspective(1200px) rotateY(80deg);
+	-ms-transform: perspective(1200px) rotateY(80deg);
+	-o-transform: perspective(1200px) rotateY(80deg);
+	transform: perspective(1200px) rotateY(80deg);
 }
-#conteiner div.hide7{
-	top:120%;
-}
-#conteiner div.hide8{
-	left:100%;
-}
-#conteiner div.hide9{
+#conteiner div.rotateToFront{
 	-webkit-transform-origin: 0%;
 	-moz-transform-origin: 0%;
 	-ms-transform-origin: 0%;
@@ -106,4 +82,29 @@ p{
 	-ms-transform: perspective(1200px) rotateY(-90deg);
 	-o-transform: perspective(1200px) rotateY(-90deg);
 	transform: perspective(1200px) rotateY(-90deg);
+}
+#conteiner div.scaleToBack{
+	opacity:0;
+	-webkit-transform: scale(.5);
+	-moz-transform: scale(.5);
+	-ms-transform: scale(.5);
+	-o-transform: scale(.5);
+	transform: scale(.5);
+}
+#conteiner div.scaleToFront{
+	opacity:0;
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+}
+#conteiner div.moveToTop{
+	top:-84px;
+}
+#conteiner div.moveToBottom{
+	top:120%;
+}
+#conteiner div.moveToRight{
+	left:100%;
 }
