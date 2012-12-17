@@ -1,7 +1,7 @@
 ﻿/**
  * Element Transform 0.1
  * http://www.sigmald.com
- *
+ * @author: Luiz Felipe / Danilo Teixeira
  * best view in Google Chrome
  */
 
