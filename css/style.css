@@ -22,6 +22,7 @@ p{
 }
 #conteiner div{
 	position:absolute;
+	z-index:1000;
 	top:60%;
 	left:-620px;
 	margin-top:-74px;
@@ -37,6 +38,23 @@ p{
 	-ms-transition: all .9s;
 	-o-transition: all .9s;
 	transition: all .9s;
+}
+.description{
+	position:absolute;
+	top:50%;
+	right:0;
+	padding:15px;
+}
+.description h2{
+	font-weight:normal;
+	font-size:21px;
+}
+.description ul{
+	list-style-type:none;
+}
+.description ul li a{
+	text-decoration:none;
+	color:#4787ED;
 }
 
 #conteiner div.defaultShow{
