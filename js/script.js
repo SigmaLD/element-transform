@@ -1,8 +1,11 @@
 ﻿/**
  *
  * Element Transform 0.2
- * http://www.sigmald.com
- * @author: Luiz Felipe / Danilo Teixeira
+ * http://www.sigmald.com/experimentos/element-transform/index.html
+ * MIT License
+ *
+ * Copyright (C) 2012 Luiz Felipe / Danilo Teixeira, http://www.sigmald.com
+ * 
  * best view in Google Chrome
  *
  */
