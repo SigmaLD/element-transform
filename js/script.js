@@ -10,7 +10,7 @@ function elementTransform(target){
 	var itens = document.getElementById(target).children,
 			elements = itens.length,
 			toggle,
-			direction,
+			direction = true,
 			styles = ["rotateToTop","rotateToBack","rotateToFront","scaleToBack","scaleToFront","moveToTop","moveToBottom","moveToRight"],
 			styleTarget = window.location.search.substr(1) || "", // Escolha um dos styles acima ou deixe uma string vazia para o modo aleatório
 			list = [],
