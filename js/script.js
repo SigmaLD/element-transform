@@ -75,13 +75,18 @@ function elementTransform(target){
 	}
 
 	function setIndex(){
-		if(direction){
-			index++;
-			index = (index > elements-1)? 0 : index;
+		if(elements > 1){
+			if(direction){
+				index++;
+				index = (index > elements-1)? 0 : index;
+			}
+			else{
+				index--;
+				index = (index < 0)? elements-1 : index;	
+			}
 		}
 		else{
-			index--;
-			index = (index < 0)? elements-1 : index;	
+			return false;
 		}
 		callback();
 	}
@@ -99,7 +104,7 @@ function elementTransform(target){
 		}
 	}
 
-	if(enable){
+	if(enable && elements > 1){
 		toogle = setInterval(function(){
 					setIndex();
 				},6000);
