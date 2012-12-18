@@ -1,8 +1,10 @@
 ﻿/**
+ *
  * Element Transform 0.2
  * http://www.sigmald.com
  * @author: Luiz Felipe / Danilo Teixeira
  * best view in Google Chrome
+ *
  */
 
 function elementTransform(target){
